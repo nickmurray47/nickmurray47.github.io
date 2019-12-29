@@ -25,7 +25,7 @@ liquors.</p>
 	<li>Spark - Hadoop MapReduce</li>
 </ul>
 
-<h2>My history</h2>
+<h2>My History</h2>
 
 <ul>
 	<li><a href="http://www.eluv.io/">@Eluvio - Software Engineer Intern</a></li>
