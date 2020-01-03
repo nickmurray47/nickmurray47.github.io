@@ -18,9 +18,8 @@ $(document).ready(function(){
             let video = document.createElement('video');
             let $video = $(video);
             if (window.chrome) videoURL = videoURL.replace(".mp4", ".webm");
-            // $video.attr('src', `assets/${videoURL}`);
             // $video.attr('src', `http://127.0.0.1:4000/assets/images/${videoURL}`);
-            $video.attr('src', `assets/images/${videoURL}`);
+            $video.attr('src', `https://nicholasmurray.dev/assets/images/${videoURL}`);
             $video.attr('muted', true);
             $video.attr('type', 'video/mp4'); // type="video/mp4"
             $video.attr('autoplay', true);
