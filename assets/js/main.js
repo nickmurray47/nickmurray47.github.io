@@ -2,13 +2,14 @@ $(document).ready(function(){
     let $imageContainer = $('#tooltip-container');
     let $imageLinks = $('.video-link');
 
+
     $imageLinks.on('mouseenter', (e) => {
         let videoURL = e.target.dataset.image;
         // needed this to fix Chrome video problems
-        console.log(videoURL);
         $imageContainer.empty();
 
-        const url = 'https://nicholasmurray.dev/assets/images/'; // `http://127.0.0.1:4000/assets/images/${videoURL}`);
+        const url = 'https://nicholasmurray.dev/assets/images/';
+        // `http://127.0.0.1:4000/assets/images/`;
 
         if (videoURL.includes('jpg')) {
             let image = document.createElement('img');
@@ -16,7 +17,7 @@ $(document).ready(function(){
             $image.attr('src', `${url}${videoURL}`);
             $imageContainer.append($image);
 
-        } else{
+        } else {
             let video = document.createElement('video');
             let $video = $(video);
             if (window.chrome) videoURL = videoURL.replace(".mp4", ".webm");
@@ -29,17 +30,22 @@ $(document).ready(function(){
             $imageContainer.append($video);
         }
 
+        let multiplier = 1;
+        if (e.pageY <= 300) multiplier = 2;
+
         $imageContainer.css({
             left: e.clientX + 'px',
-            top: e.clientY + 'px'
+            top: multiplier*e.clientY + 'px'
         });
         $imageContainer.addClass('visible');
     });
 
     $imageLinks.on('mousemove', (e) => {
+        let multiplier = 1;
+        if (e.pageY <= 300) multiplier = 2;
         $imageContainer.css({
             left: e.clientX + 'px',
-            top: e.clientY + 'px'
+            top: multiplier*e.clientY + 'px'
         })
     });
 
