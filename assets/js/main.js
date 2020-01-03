@@ -20,14 +20,16 @@ $(document).ready(function(){
         } else {
             let video = document.createElement('video');
             let $video = $(video);
-            // if (window.chrome) videoURL = videoURL.replace(".mp4", ".webm");
             $video.attr('src', `${url}${videoURL}`);
-            $video.attr('muted', true);
             $video.attr('type', 'video/mp4'); // type="video/mp4"
             $video.attr('autoplay', true);
             $video.attr('loop', true);
             $video.attr('playsinline', true);
+            $video.attr('muted', 'muted'); // setting to true would not work
             $imageContainer.append($video);
+
+            console.log($video.attr('muted'));
+            console.log($video.attr('autoplay'));
         }
 
         let multiplier = 1;
