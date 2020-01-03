@@ -8,18 +8,19 @@ $(document).ready(function(){
         console.log(videoURL);
         $imageContainer.empty();
 
+        const url = 'https://nicholasmurray.dev/assets/images/'; // `http://127.0.0.1:4000/assets/images/${videoURL}`);
+
         if (videoURL.includes('jpg')) {
             let image = document.createElement('img');
             let $image = $(image);
-            $image.attr('src', `http://127.0.0.1:4000/assets/images/${videoURL}`);
+            $image.attr('src', `${url}${videoURL}`);
             $imageContainer.append($image);
 
         } else{
             let video = document.createElement('video');
             let $video = $(video);
             if (window.chrome) videoURL = videoURL.replace(".mp4", ".webm");
-            // $video.attr('src', `http://127.0.0.1:4000/assets/images/${videoURL}`);
-            $video.attr('src', `https://nicholasmurray.dev/assets/images/${videoURL}`);
+            $video.attr('src', `${url}${videoURL}`);
             $video.attr('muted', true);
             $video.attr('type', 'video/mp4'); // type="video/mp4"
             $video.attr('autoplay', true);
