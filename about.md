@@ -9,7 +9,7 @@ layout: page
  powerful digital tools to optimize interactions, tell stories, and explore complex data.</p>
 
 <p>I recently graduated from Washington University in St. Louis with a B.S. in Computer 
-Science (2019). In my downtime I enjoy reading, mountain running, chess, and trying new
+Science (2019). In my downtime I enjoy reading, mountain running, playing chess, and trying new
 liquors.</p>
 
 <h2>Skills</h2>
