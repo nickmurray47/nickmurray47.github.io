@@ -25,7 +25,7 @@ $(document).ready(function(){
             $video.attr('autoplay', true);
             $video.attr('loop', true);
             $video.attr('playsinline', true);
-            $video.attr('muted', 'muted'); // setting to true would not work
+            $video.attr('muted', 'muted'); // setting to true would not work, solves Chrome autoplay issue
             $imageContainer.append($video);
 
             console.log($video.attr('muted'));

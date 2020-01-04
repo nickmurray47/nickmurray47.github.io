@@ -15,14 +15,12 @@ bookstores.</p>
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - CSS - Bootstrap</li>
-	<li>Javascript</li>
-	<li>NodeJS - ReactJS</li>
-	<li>d3.js</li>
-	<li>Git</li>
-	<li>Python - Java - C/C++</li>
-	<li>MySQL</li>
-	<li>Spark - Hadoop MapReduce</li>
+	<li> <strong>Frontend:</strong> HTML/CSS - ReactJS - Bootstrap</li>
+	<li> <strong>Languages:</strong> Javascript - Python - Java - C++ </li>
+	<li> <strong>Web Apps:</strong> Node.js - Django </li>
+	<li> <strong>Databases/Storage:</strong> MySQL - AWS s3 </li>
+	<li> <strong>Data:</strong> d3.js - Spark - Hadoop MapReduce </li>
+	<li> <strong>Version Control:</strong> Git - SVN </li>
 </ul>
 
 <h2>My History</h2>
