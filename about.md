@@ -4,30 +4,38 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.about-picture }})
 
-<p>My name is Nicholas Murray, and I'm a software developer specializing
- in full stack applications and data visualizations. I'm interested in building
- powerful digital tools to optimize interactions, tell stories, and explore complex data.</p>
+<p>My name is Nicholas Murray, and I'm a founding software engineer specializing in ML infrastructure, full-stack applications, and healthcare technology. I'm passionate about building scalable systems that solve complex problems, from distributed training platforms to healthcare data applications.</p>
 
-<p>I graduated in 2019 from Washington University in St. Louis with a B.S. in Computer 
-Science. In my downtime, I enjoy mountain running, playing chess, and visiting indie
-bookstores.</p>
+<p>I graduated in 2019 from Washington University in St. Louis with a B.S. in Computer Science and am currently pursuing a Professional Certificate in Embedded Engineering from UC San Diego. In my downtime, I enjoy mountain running, playing chess, and visiting indie bookstores.</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li> <strong>Frontend:</strong> HTML/CSS - ReactJS - Bootstrap</li>
-	<li> <strong>Languages:</strong> Javascript - Python - Java - C++ - PHP </li>
-	<li> <strong>Web Apps:</strong> Node.js - Django </li>
-	<li> <strong>Databases/Storage:</strong> MySQL - AWS s3 </li>
-	<li> <strong>Data:</strong> d3.js - Spark - Hadoop MapReduce </li>
-	<li> <strong>Version Control:</strong> Git - SVN </li>
+	<li><strong>Languages:</strong> Python - TypeScript - JavaScript - Go - C++ - PHP</li>
+	<li><strong>Frontend:</strong> React - Next.js - Tailwind CSS - React Native</li>
+	<li><strong>Backend:</strong> FastAPI - Node.js - GraphQL</li>
+	<li><strong>Cloud & Infrastructure:</strong> AWS EKS/ECS - Kubernetes - Docker - MLflow</li>
+	<li><strong>Databases:</strong> PostgreSQL - MySQL - Weaviate - SQLite</li>
+	<li><strong>ML/AI:</strong> Ray - Temporal - AWS Textract - Llama 2</li>
 </ul>
 
-<h2>My History</h2>
+<h2>Experience</h2>
 
 <ul>
-	<li><a href="http://www.eluv.io/">@Eluv.io</a> Software Engineer Intern - Summer 2019</li>
-	<li><a href="https://www.workday.com/en-us/homepage.html/">@Workday</a> Software Application Engineer Intern - Summer 2018</li>
-	<li><a href="">@c2c</a> Software Engineer - Summer/Fall 2017</li>
-	<li><a href="https://mindactive.com/">@MindActive</a> Web Development Intern - Summer 2016</li>
+	<li><strong>Founding Software Engineer</strong> - <a href="#">RapidFire AI</a> (May 2024–Present)<br/>
+		<em>Built ML experimentation platform and AWS deployment infrastructure for distributed training</em></li>
+	<li><strong>Founding Software Engineer</strong> - Project Quench (April 2023–May 2024)<br/>
+		<em>Healthcare RAG application transforming medical records into semantic search engine</em></li>
+	<li><strong>Software Engineer III</strong> - <a href="https://www.samsara.com/">Samsara</a> (2022–2023)<br/>
+		<em>ELD Compliance team maintaining >99% SLA for 100k+ drivers</em></li>
+	<li><strong>Software Engineer</strong> - <a href="https://www.expensify.com/">Expensify</a> (2020–2022)<br/>
+		<em>Led money transfer features and customer migrations on business-chat platform</em></li>
+</ul>
+
+<h2>Projects</h2>
+
+<ul>
+	<li><strong>BookShelf App</strong> - iOS app with 5k users, #138 in Books category, built collections sharing and analytics</li>
+	<li><strong>Steward (Clinical SLM)</strong> - Northwestern collaboration deploying clinical language models on AWS SageMaker</li>
+	<li><strong>FastenHealth</strong> - Open-source contributor for personal health data aggregator</li>
 </ul>
