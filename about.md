@@ -16,7 +16,7 @@ bookstores.</p>
 
 <ul class="skill-list">
 	<li> <strong>Frontend:</strong> HTML/CSS - ReactJS - Bootstrap</li>
-	<li> <strong>Languages:</strong> Javascript - Python - Java - C++ </li>
+	<li> <strong>Languages:</strong> Javascript - Python - Java - C++ - PHP </li>
 	<li> <strong>Web Apps:</strong> Node.js - Django </li>
 	<li> <strong>Databases/Storage:</strong> MySQL - AWS s3 </li>
 	<li> <strong>Data:</strong> d3.js - Spark - Hadoop MapReduce </li>
