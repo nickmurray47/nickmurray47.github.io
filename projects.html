@@ -1,24 +1,29 @@
 ---
 layout: basic
-title: Projects
+title: Work
 ---
-<!--<section class="list">-->
-<!--    {% for post in site.posts %}-->
-<!--        {% if post.projects %}-->
-<!--            <div class="item {% if post.star %}star{% endif %}">-->
-<!--                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">-->
-<!--                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>-->
-<!--                    <h3 class="title">{{ post.title }}</h3>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--        {% endif %}-->
-<!--    {% endfor %}-->
-<!--</section>-->
 {% include header.html %}
 
 <div id="tooltip-container"></div>
 
-<h2> During my senior year as a computer science major at WashU:  </h2>
+<h2>Recent Professional Projects:</h2>
+
+<p><strong><a href="https://rapidfire.ai" target="_blank">RapidFire AI - ML Experimentation Platform</a></strong> (2024-Present)<br/>
+As a founding engineer, I built the core ML experimentation UI platform from open-source MLflow, enabling researchers to visualize and manage model training across hyperparameters, architectures, and datasets. I architected AWS EKS deployment infrastructure that manages hundreds of concurrent clusters running multiple simultaneous training jobs. The platform includes real-time monitoring, experiment tracking, and an "Interactive Control" feature that allows users to clone and modify model layers during training, speeding up experiment accuracy up to 5x.</p>
+
+<p><strong><a href="https://www.projectquench.ai/" target="_blank">Project Quench - Healthcare RAG Application</a></strong> (2023-2024)<br/>
+I wrote the entire backend and frontend MVP for a platform that transforms thousands of patient medical records into a semantic search engine with document references. The system allows physicians to ask questions and organize cases with low hallucination rates. Built using Python + FastAPI backend, React frontend, and automated OCR/embedding pipeline with AWS Textract and Llama 2. Delivered working version in four weeks, leading to first dozen customers including expert physicians at Harvard and UCSF.</p>
+
+<p><strong><a href="https://www.getbookshelf.com/" target="_blank">BookShelf iOS App</a></strong> (2020-Present)<br/>
+Personal project that grew to 5k users and ranked #138 in the App Store Books category. Built the backend infrastructure for collections sharing feature and internal analytics. The app helps users track their reading progress, organize books into collections, and discover new books through AI-powered recommendations.</p>
+
+<p><strong>Samsara ELD Compliance Platform</strong> (2022-2023)<br/>
+Maintained >99% SLA for the core ELD (Electronic Logging Device) feature used by 100,000+ drivers. During a team transition period, I took on a critical two-year-old project for updating GPS logging logic that would have caused compliance failures. Redesigned the system architecture and delivered the solution in under a month, preventing a major compliance crisis.</p>
+
+<p><strong>Expensify Money Transfer Platform</strong> (2020-2022)<br/>
+Led development of money transfer features for Expensify's business-chat platform (think Venmo meets Expensify). Managed a team of 4 engineers and led the rollout to 100% of customers. Also led critical customer migration for 2000 of the biggest corporate customers using NetSuite integration.</p>
+
+<h2> Earlier Academic Projects at WashU: </h2>
 
 <p> I calculated and <a class="video-link" data-image="clothingtrends.mp4" target="_blank" href="https://washuvis.github.io/clothing/">
     visualized popular clothing trends</a> according to categorized Instagram posts from a <a href="https://streetstyle.cs.cornell.edu/">Cornell dataset</a> using
